@@ -1,7 +1,8 @@
-package com.mycuteblog.dao.impl;
+package com.fsb.docview.dao.impl;
 
-import com.mycuteblog.dao.ApiRequestDao;
-import com.mycuteblog.model.ApiRequest;
+import com.fsb.docview.dao.ApiRequestDao;
+import com.fsb.docview.model.ApiRequest;
+
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;

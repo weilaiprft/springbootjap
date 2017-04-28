@@ -1,7 +1,8 @@
-package com.mycuteblog;
+package com.fsb.docview;
 
-import com.mycuteblog.model.ApiRequest;
-import com.mycuteblog.service.ApiRequestService;
+import com.fsb.docview.model.ApiRequest;
+import com.fsb.docview.service.ApiRequestService;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,6 +10,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
 
 import java.util.Date;
 import java.util.HashMap;
@@ -37,5 +39,6 @@ public class ApiRequestController {
         }
 
         return response;
-    }
+    }          
+    
 }

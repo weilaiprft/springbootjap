@@ -1,4 +1,4 @@
-package com.mycuteblog;
+package com.fsb.docview;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

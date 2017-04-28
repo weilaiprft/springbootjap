@@ -1,4 +1,4 @@
-package com.mycuteblog.model;
+package com.fsb.docview.model;
 
 import javax.persistence.*;
 import java.util.Date;

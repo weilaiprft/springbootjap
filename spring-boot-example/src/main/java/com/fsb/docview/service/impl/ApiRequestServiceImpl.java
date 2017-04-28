@@ -1,8 +1,9 @@
-package com.mycuteblog.service.impl;
+package com.fsb.docview.service.impl;
 
-import com.mycuteblog.dao.ApiRequestDao;
-import com.mycuteblog.model.ApiRequest;
-import com.mycuteblog.service.ApiRequestService;
+import com.fsb.docview.dao.ApiRequestDao;
+import com.fsb.docview.model.ApiRequest;
+import com.fsb.docview.service.ApiRequestService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

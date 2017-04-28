@@ -1,6 +1,6 @@
-package com.mycuteblog.dao;
+package com.fsb.docview.dao;
 
-import com.mycuteblog.model.ApiRequest;
+import com.fsb.docview.model.ApiRequest;
 
 public interface ApiRequestDao {
     void create(ApiRequest apiRequest);

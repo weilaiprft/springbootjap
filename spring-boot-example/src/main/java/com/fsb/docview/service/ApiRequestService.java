@@ -1,6 +1,6 @@
-package com.mycuteblog.service;
+package com.fsb.docview.service;
 
-import com.mycuteblog.model.ApiRequest;
+import com.fsb.docview.model.ApiRequest;
 
 public interface ApiRequestService {
     void create(ApiRequest apiRequest);
